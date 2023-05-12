@@ -1,0 +1,1 @@
+{"version":3,"file":"border-radius-4e388b32.js","sources":["../../src/tailwind/styles/border-radius.ts"],"sourcesContent":["export const borderRadius = 'rounded';\n"],"names":["borderRadius"],"mappings":"AAAO,MAAMA,EAAe"}
