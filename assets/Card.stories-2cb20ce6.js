@@ -1,0 +1,48 @@
+import{R as e}from"./index-f1f749bf.js";import{c as b}from"./clsx.m-1229b3e0.js";import{f as z}from"./focus-da9c5ec1.js";import{C as E}from"./Card-bd695987.js";import{L as w,a as N}from"./Link-a709f350.js";import"./_commonjsHelpers-042e6b4d.js";import"./border-radius-4e388b32.js";import"./Icon-38ba44d5.js";const B={title:"Components/Card",component:E,tags:["autodocs"],argTypes:{}},t={decorators:[a=>e.createElement("div",{className:"max-w-sm"},e.createElement(a,null))],args:{children:"Content"}},s={decorators:[a=>e.createElement("div",{className:"max-w-sm"},e.createElement("button",{className:b(z,"focus-visible:outline-none","rounded-lg")},e.createElement(a,null)))],args:{children:e.createElement(e.Fragment,null,e.createElement("p",{className:"zep-tagline text-zep-grey-700 mb-zep-0.5"},"Tagline"),e.createElement("h4",{className:"zep-headline-xs mb-zep-1"},"I am a h4"),e.createElement("p",{className:"zep-body-text mb-zep-1.5 flex-grow"},"Description"),e.createElement(w,{as:"span",label:"standalone link",href:"#",mode:N.Standalone}))}},r={decorators:[a=>e.createElement("div",{className:"max-w-sm"},e.createElement("button",{className:b(z,"focus-visible:outline-none","rounded-lg")},e.createElement(a,null)))],args:{image:e.createElement("img",{src:"https://images.unsplash.com/photo-1615842974426-55c372fd8d8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",alt:"construction site",title:"construction site"}),children:e.createElement(e.Fragment,null,e.createElement("p",{className:"zep-tagline text-zep-grey-700 mb-zep-0.5"},"Tagline"),e.createElement("h3",{className:"zep-headline-xs mb-zep-1"},"I am a h3"),e.createElement("p",{className:"zep-body-text mb-zep-1.5 flex-grow"},"Description"),e.createElement(w,{as:"span",label:"standalone link",href:"#",mode:N.Standalone}))}},o={decorators:[a=>e.createElement("div",{className:"max-w-sm"},e.createElement(a,null))],args:{image:e.createElement("img",{src:"https://images.unsplash.com/photo-1615842974426-55c372fd8d8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",alt:"construction site",title:"construction site"}),children:e.createElement(e.Fragment,null,e.createElement("h3",{className:"zep-headline-sm"},"Title"))}};var n,l,c;t.parameters={...t.parameters,docs:{...(n=t.parameters)==null?void 0:n.docs,source:{originalSource:`{
+  decorators: [Story => <div className="max-w-sm">
+        <Story />
+      </div>],
+  args: ({
+    children: 'Content'
+  } as CardProps)
+}`,...(c=(l=t.parameters)==null?void 0:l.docs)==null?void 0:c.source}}};var i,m,d;s.parameters={...s.parameters,docs:{...(i=s.parameters)==null?void 0:i.docs,source:{originalSource:`{
+  decorators: [Story => <div className="max-w-sm">
+        <button className={clsx(focusRing, 'focus-visible:outline-none', 'rounded-lg')}>
+          <Story />
+        </button>
+      </div>],
+  args: ({
+    children: <>
+        <p className="zep-tagline text-zep-grey-700 mb-zep-0.5">Tagline</p>
+        <h4 className="zep-headline-xs mb-zep-1">I am a h4</h4>
+        <p className="zep-body-text mb-zep-1.5 flex-grow">Description</p>
+        <Link as={'span'} label="standalone link" href="#" mode={LinkMode.Standalone} />
+      </>
+  } as CardProps)
+}`,...(d=(m=s.parameters)==null?void 0:m.docs)==null?void 0:d.source}}};var p,u,f;r.parameters={...r.parameters,docs:{...(p=r.parameters)==null?void 0:p.docs,source:{originalSource:`{
+  decorators: [Story => <div className="max-w-sm">
+        <button className={clsx(focusRing, 'focus-visible:outline-none', 'rounded-lg')}>
+          <Story />
+        </button>
+      </div>],
+  args: ({
+    image: <img src="https://images.unsplash.com/photo-1615842974426-55c372fd8d8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80" alt="construction site" title="construction site" />,
+    children: <>
+        <p className="zep-tagline text-zep-grey-700 mb-zep-0.5">Tagline</p>
+        <h3 className="zep-headline-xs mb-zep-1">I am a h3</h3>
+        <p className="zep-body-text mb-zep-1.5 flex-grow">Description</p>
+        <Link as={'span'} label="standalone link" href="#" mode={LinkMode.Standalone} />
+      </>
+  } as CardProps)
+}`,...(f=(u=r.parameters)==null?void 0:u.docs)==null?void 0:f.source}}};var g,x,h;o.parameters={...o.parameters,docs:{...(g=o.parameters)==null?void 0:g.docs,source:{originalSource:`{
+  decorators: [Story => <div className="max-w-sm">
+        <Story />
+      </div>],
+  args: ({
+    image: <img src="https://images.unsplash.com/photo-1615842974426-55c372fd8d8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80" alt="construction site" title="construction site" />,
+    children: <>
+        <h3 className="zep-headline-sm">Title</h3>
+      </>
+  } as CardProps)
+}`,...(h=(x=o.parameters)==null?void 0:x.docs)==null?void 0:h.source}}};const G=["Default","WithChildren","WithChildrenAndImage","ProductCard"];export{t as Default,o as ProductCard,s as WithChildren,r as WithChildrenAndImage,G as __namedExportsOrder,B as default};
+//# sourceMappingURL=Card.stories-2cb20ce6.js.map
