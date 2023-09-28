@@ -394,15 +394,6 @@
       ]
     },
     {
-      "id": "./src/components/phone-input/PhoneInput.tsx",
-      "name": "./src/components/phone-input/PhoneInput.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/phone-input/PhoneInput.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/link/Link.tsx",
       "name": "./src/components/link/Link.tsx",
       "reasons": [
@@ -426,6 +417,15 @@
         },
         {
           "moduleName": "./src/components/link/Link.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/phone-input/PhoneInput.tsx",
+      "name": "./src/components/phone-input/PhoneInput.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/phone-input/PhoneInput.stories.tsx"
         }
       ]
     },
@@ -470,10 +470,10 @@
           "moduleName": "./src/components/button/Button.tsx"
         },
         {
-          "moduleName": "./src/components/drop-down/DropDown.tsx"
+          "moduleName": "./src/components/drop-down-filter/DropDownFilter.tsx"
         },
         {
-          "moduleName": "./src/components/drop-down-filter/DropDownFilter.tsx"
+          "moduleName": "./src/components/drop-down/DropDown.tsx"
         },
         {
           "moduleName": "./src/components/phone-input/react-phone-input-2/src/index.jsx"
@@ -623,10 +623,10 @@
       "name": "./src/utils/getDistanceToBottom.ts",
       "reasons": [
         {
-          "moduleName": "./src/components/drop-down/DropDown.tsx"
+          "moduleName": "./src/components/drop-down-filter/DropDownFilter.tsx"
         },
         {
-          "moduleName": "./src/components/drop-down-filter/DropDownFilter.tsx"
+          "moduleName": "./src/components/drop-down/DropDown.tsx"
         }
       ]
     },
