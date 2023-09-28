@@ -394,6 +394,15 @@
       ]
     },
     {
+      "id": "./src/components/phone-input/PhoneInput.tsx",
+      "name": "./src/components/phone-input/PhoneInput.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/phone-input/PhoneInput.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/link/Link.tsx",
       "name": "./src/components/link/Link.tsx",
       "reasons": [
@@ -421,15 +430,6 @@
       ]
     },
     {
-      "id": "./src/components/phone-input/PhoneInput.tsx",
-      "name": "./src/components/phone-input/PhoneInput.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/phone-input/PhoneInput.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/input/Input.tsx",
       "name": "./src/components/input/Input.tsx",
       "reasons": [
@@ -452,10 +452,10 @@
           "moduleName": "./src/components/text-area/TextArea.tsx"
         },
         {
-          "moduleName": "./src/components/link/Link.tsx"
+          "moduleName": "./src/components/phone-input/PhoneInput.tsx"
         },
         {
-          "moduleName": "./src/components/phone-input/PhoneInput.tsx"
+          "moduleName": "./src/components/link/Link.tsx"
         },
         {
           "moduleName": "./src/components/input/Input.tsx"
@@ -631,15 +631,6 @@
       ]
     },
     {
-      "id": "./src/components/phone-input/react-phone-input-2/src/CountryData.js",
-      "name": "./src/components/phone-input/react-phone-input-2/src/CountryData.js",
-      "reasons": [
-        {
-          "moduleName": "./src/components/phone-input/react-phone-input-2/src/index.jsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/phone-input/react-phone-input-2/src/rawCountries.js",
       "name": "./src/components/phone-input/react-phone-input-2/src/rawCountries.js",
       "reasons": [
@@ -654,6 +645,15 @@
       "reasons": [
         {
           "moduleName": "./src/components/phone-input/react-phone-input-2/src/CountryData.js"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/phone-input/react-phone-input-2/src/CountryData.js",
+      "name": "./src/components/phone-input/react-phone-input-2/src/CountryData.js",
+      "reasons": [
+        {
+          "moduleName": "./src/components/phone-input/react-phone-input-2/src/index.jsx"
         }
       ]
     }
