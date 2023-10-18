@@ -427,6 +427,18 @@
       ]
     },
     {
+      "id": "./src/components/radio/Radio.tsx",
+      "name": "./src/components/radio/Radio.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/radio/Radio.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/radio/index.ts"
+        }
+      ]
+    },
+    {
       "id": "./src/components/link/Link.tsx",
       "name": "./src/components/link/Link.tsx",
       "reasons": [
@@ -450,18 +462,6 @@
         },
         {
           "moduleName": "./src/components/link/Link.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/radio/Radio.tsx",
-      "name": "./src/components/radio/Radio.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/radio/Radio.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/radio/index.ts"
         }
       ]
     },
