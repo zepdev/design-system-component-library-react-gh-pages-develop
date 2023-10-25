@@ -243,6 +243,9 @@
       "reasons": [
         {
           "moduleName": "./src/compositions/contact-form.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/button/Button.stories.tsx"
         }
       ]
     },
