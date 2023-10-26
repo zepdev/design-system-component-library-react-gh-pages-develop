@@ -49,6 +49,15 @@
       ]
     },
     {
+      "id": "./src/components/typography/Docs.mdx",
+      "name": "./src/components/typography/Docs.mdx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
       "id": "./src/compositions/contact-form.stories.tsx",
       "name": "./src/compositions/contact-form.stories.tsx",
       "reasons": [
@@ -67,8 +76,20 @@
       ]
     },
     {
-      "id": "./src/components/spacing/Spacing.stories.tsx",
-      "name": "./src/components/spacing/Spacing.stories.tsx",
+      "id": "./src/components/typography/Typography.stories.tsx",
+      "name": "./src/components/typography/Typography.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        },
+        {
+          "moduleName": "./src/components/typography/Docs.mdx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/text-area/TextArea.stories.tsx",
+      "name": "./src/components/text-area/TextArea.stories.tsx",
       "reasons": [
         {
           "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
@@ -76,8 +97,8 @@
       ]
     },
     {
-      "id": "./src/components/text-area/TextArea.stories.tsx",
-      "name": "./src/components/text-area/TextArea.stories.tsx",
+      "id": "./src/components/spacing/Spacing.stories.tsx",
+      "name": "./src/components/spacing/Spacing.stories.tsx",
       "reasons": [
         {
           "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
@@ -334,18 +355,6 @@
       ]
     },
     {
-      "id": "./src/components/spacing/Spacing.tsx",
-      "name": "./src/components/spacing/Spacing.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/spacing/index.ts"
-        },
-        {
-          "moduleName": "./src/components/spacing/Spacing.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/radio/Radio.tsx",
       "name": "./src/components/radio/Radio.tsx",
       "reasons": [
@@ -354,6 +363,18 @@
         },
         {
           "moduleName": "./src/components/radio/Radio.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/spacing/Spacing.tsx",
+      "name": "./src/components/spacing/Spacing.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/spacing/index.ts"
+        },
+        {
+          "moduleName": "./src/components/spacing/Spacing.stories.tsx"
         }
       ]
     },
@@ -497,13 +518,16 @@
           "moduleName": "./src/compositions/contact-form.stories.tsx"
         },
         {
+          "moduleName": "./src/components/typography/Typography.stories.tsx"
+        },
+        {
           "moduleName": "./src/components/radio/Radio.stories.tsx"
         },
         {
-          "moduleName": "./src/components/input/Input.stories.tsx"
+          "moduleName": "./src/components/icon/Icon.stories.tsx"
         },
         {
-          "moduleName": "./src/components/icon/Icon.stories.tsx"
+          "moduleName": "./src/components/input/Input.stories.tsx"
         },
         {
           "moduleName": "./src/components/form-field/FormField.stories.tsx"
@@ -572,13 +596,13 @@
           "moduleName": "./src/components/text-area/TextArea.tsx"
         },
         {
-          "moduleName": "./src/components/input/Input.tsx"
+          "moduleName": "./src/components/phone-input/PhoneInput.tsx"
         },
         {
           "moduleName": "./src/components/link/Link.tsx"
         },
         {
-          "moduleName": "./src/components/phone-input/PhoneInput.tsx"
+          "moduleName": "./src/components/input/Input.tsx"
         },
         {
           "moduleName": "./src/components/form-field/FormField.tsx"
