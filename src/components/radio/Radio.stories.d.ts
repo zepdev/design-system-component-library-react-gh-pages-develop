@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react';
 /**
- * The Radio component is best used inside the FormField component, it allows setting hint and error messages.
+ * The Radio component is best used inside the Fieldset component, it allows setting hint and error messages.
  */
 declare const meta: Meta;
 export default meta;

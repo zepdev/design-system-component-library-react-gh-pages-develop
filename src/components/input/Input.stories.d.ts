@@ -3,7 +3,7 @@ declare const meta: Meta;
 export default meta;
 type Story = StoryObj<typeof meta>;
 /**
- * The Input component is best used inside a FormField component, it allows setting hint and error messages.
+ * The Input component is best used inside a Fieldset component, it allows setting hint and error messages.
  */
 export declare const Default: Story;
 export declare const Search: Story;
