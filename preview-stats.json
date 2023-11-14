@@ -151,8 +151,17 @@
       ]
     },
     {
-      "id": "./src/components/icon/Icon.stories.tsx",
-      "name": "./src/components/icon/Icon.stories.tsx",
+      "id": "./src/components/icon/ProductIcon.stories.tsx",
+      "name": "./src/components/icon/ProductIcon.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/icon/FunctionalIcon.stories.tsx",
+      "name": "./src/components/icon/FunctionalIcon.stories.tsx",
       "reasons": [
         {
           "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
@@ -545,19 +554,22 @@
           "moduleName": "./src/components/input/Input.stories.tsx"
         },
         {
-          "moduleName": "./src/components/icon/Icon.stories.tsx"
+          "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/fieldset/Fieldset.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/drop-down/DropDown.stories.tsx"
         },
         {
           "moduleName": "./src/components/drop-down-filter/DropDownFilter.stories.tsx"
         },
         {
           "moduleName": "./src/components/checkbox/Checkbox.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/drop-down/DropDown.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/fieldset/Fieldset.stories.tsx"
         },
         {
           "moduleName": "./src/components/button/Button.stories.tsx"
@@ -576,6 +588,24 @@
       "reasons": [
         {
           "moduleName": "./src/compositions/contact-form.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/card/index.ts",
+      "name": "./src/components/card/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/compositions/Grid.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/grid/index.ts",
+      "name": "./src/components/grid/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/compositions/Grid.stories.tsx"
         }
       ]
     },
@@ -625,24 +655,6 @@
       ]
     },
     {
-      "id": "./src/components/card/index.ts",
-      "name": "./src/components/card/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/compositions/Grid.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/grid/index.ts",
-      "name": "./src/components/grid/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/compositions/Grid.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/phone-input/PhoneInput.tsx",
       "name": "./src/components/phone-input/PhoneInput.tsx",
       "reasons": [
@@ -656,7 +668,10 @@
       "name": "./src/components/icon/Icon.tsx",
       "reasons": [
         {
-          "moduleName": "./src/components/icon/Icon.stories.tsx"
+          "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
         },
         {
           "moduleName": "./src/components/text-area/TextArea.tsx"
@@ -668,10 +683,10 @@
           "moduleName": "./src/components/input/Input.tsx"
         },
         {
-          "moduleName": "./src/components/checkbox/Checkbox.tsx"
+          "moduleName": "./src/components/fieldset/Fieldset.tsx"
         },
         {
-          "moduleName": "./src/components/fieldset/Fieldset.tsx"
+          "moduleName": "./src/components/checkbox/Checkbox.tsx"
         },
         {
           "moduleName": "./src/components/button/Button.tsx"
@@ -680,10 +695,10 @@
           "moduleName": "./src/components/breadcrumb/Breadcrumb.tsx"
         },
         {
-          "moduleName": "./src/components/drop-down-filter/DropDownFilter.tsx"
+          "moduleName": "./src/components/drop-down/DropDown.tsx"
         },
         {
-          "moduleName": "./src/components/drop-down/DropDown.tsx"
+          "moduleName": "./src/components/drop-down-filter/DropDownFilter.tsx"
         },
         {
           "moduleName": "./src/components/accordion/Accordion.tsx"
@@ -695,7 +710,10 @@
       "name": "./src/components/icon/Icons.tsx",
       "reasons": [
         {
-          "moduleName": "./src/components/icon/Icon.stories.tsx"
+          "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
         },
         {
           "moduleName": "./src/components/icon/Icon.tsx"
@@ -769,18 +787,6 @@
       ]
     },
     {
-      "id": "./src/utils/getDistanceToBottom.ts",
-      "name": "./src/utils/getDistanceToBottom.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/drop-down-filter/DropDownFilter.tsx"
-        },
-        {
-          "moduleName": "./src/components/drop-down/DropDown.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/phone-input/CountrySelect.tsx",
       "name": "./src/components/phone-input/CountrySelect.tsx",
       "reasons": [
@@ -795,6 +801,18 @@
       "reasons": [
         {
           "moduleName": "./src/components/phone-input/PhoneInput.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/utils/getDistanceToBottom.ts",
+      "name": "./src/utils/getDistanceToBottom.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/drop-down/DropDown.tsx"
+        },
+        {
+          "moduleName": "./src/components/drop-down-filter/DropDownFilter.tsx"
         }
       ]
     }

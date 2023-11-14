@@ -10,4 +10,5 @@ export declare const Disabled: Story;
 export declare const Error: Story;
 export declare const AriaDescribedBy: Story;
 export declare const Group: Story;
+export declare const CheckAnItem: Story;
 //# sourceMappingURL=Radio.stories.d.ts.map

@@ -11,4 +11,5 @@ export declare const Error: Story;
 export declare const AutoFocus: Story;
 export declare const AriaDescribedBy: Story;
 export declare const Group: Story;
+export declare const CheckAnItem: Story;
 //# sourceMappingURL=Checkbox.stories.d.ts.map
