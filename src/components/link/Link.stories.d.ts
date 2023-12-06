@@ -1,5 +1,5 @@
 import type { StoryObj } from '@storybook/react';
-import { LinkProps, LinkSize, LinkTarget, LinkMode } from './link.interface';
+import { LinkMode, LinkProps, LinkSize, LinkTarget } from './link.interface';
 declare const meta: {
     title: string;
     component: import("react").FC<LinkProps>;
