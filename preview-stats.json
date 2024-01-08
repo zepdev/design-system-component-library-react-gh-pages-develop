@@ -88,6 +88,15 @@
       ]
     },
     {
+      "id": "./src/components/tooltip/Tooltip.stories.tsx",
+      "name": "./src/components/tooltip/Tooltip.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
       "id": "./src/components/text-area/TextArea.stories.tsx",
       "name": "./src/components/text-area/TextArea.stories.tsx",
       "reasons": [
@@ -97,8 +106,8 @@
       ]
     },
     {
-      "id": "./src/components/table/Table.stories.tsx",
-      "name": "./src/components/table/Table.stories.tsx",
+      "id": "./src/components/tabs/Tabs.stories.tsx",
+      "name": "./src/components/tabs/Tabs.stories.tsx",
       "reasons": [
         {
           "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
@@ -106,8 +115,8 @@
       ]
     },
     {
-      "id": "./src/components/tabs/Tabs.stories.tsx",
-      "name": "./src/components/tabs/Tabs.stories.tsx",
+      "id": "./src/components/table/Table.stories.tsx",
+      "name": "./src/components/table/Table.stories.tsx",
       "reasons": [
         {
           "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
@@ -331,6 +340,15 @@
       ]
     },
     {
+      "id": "./src/components/tooltip/Tooltip.tsx",
+      "name": "./src/components/tooltip/Tooltip.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/tooltip/Tooltip.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/link/Link.tsx",
       "name": "./src/components/link/Link.tsx",
       "reasons": [
@@ -433,18 +451,6 @@
       ]
     },
     {
-      "id": "./src/components/radio/Radio.tsx",
-      "name": "./src/components/radio/Radio.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/radio/index.ts"
-        },
-        {
-          "moduleName": "./src/components/radio/Radio.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/spacing/Spacing.tsx",
       "name": "./src/components/spacing/Spacing.tsx",
       "reasons": [
@@ -453,6 +459,18 @@
         },
         {
           "moduleName": "./src/components/spacing/Spacing.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/grid/Grid.tsx",
+      "name": "./src/components/grid/Grid.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/grid/index.ts"
+        },
+        {
+          "moduleName": "./src/components/grid/Grid.stories.tsx"
         }
       ]
     },
@@ -481,14 +499,14 @@
       ]
     },
     {
-      "id": "./src/components/grid/Grid.tsx",
-      "name": "./src/components/grid/Grid.tsx",
+      "id": "./src/components/radio/Radio.tsx",
+      "name": "./src/components/radio/Radio.tsx",
       "reasons": [
         {
-          "moduleName": "./src/components/grid/index.ts"
+          "moduleName": "./src/components/radio/index.ts"
         },
         {
-          "moduleName": "./src/components/grid/Grid.stories.tsx"
+          "moduleName": "./src/components/radio/Radio.stories.tsx"
         }
       ]
     },
@@ -638,25 +656,25 @@
           "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
         },
         {
-          "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
-        },
-        {
           "moduleName": "./src/components/hero/hero.stories.tsx"
         },
         {
-          "moduleName": "./src/components/drop-down-filter/DropDownFilter.stories.tsx"
+          "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
         },
         {
           "moduleName": "./src/components/fieldset/Fieldset.stories.tsx"
         },
         {
+          "moduleName": "./src/components/drop-down-filter/DropDownFilter.stories.tsx"
+        },
+        {
           "moduleName": "./src/components/drop-down/DropDown.stories.tsx"
         },
         {
-          "moduleName": "./src/components/button/Button.stories.tsx"
+          "moduleName": "./src/components/checkbox/Checkbox.stories.tsx"
         },
         {
-          "moduleName": "./src/components/checkbox/Checkbox.stories.tsx"
+          "moduleName": "./src/components/button/Button.stories.tsx"
         },
         {
           "moduleName": "./src/components/button/Button.tsx"
@@ -736,18 +754,6 @@
       ]
     },
     {
-      "id": "./src/components/table/Table.tsx",
-      "name": "./src/components/table/Table.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/table/Table.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/table/index.ts"
-        }
-      ]
-    },
-    {
       "id": "./src/components/tabs/Tab.tsx",
       "name": "./src/components/tabs/Tab.tsx",
       "reasons": [
@@ -808,6 +814,18 @@
       ]
     },
     {
+      "id": "./src/components/table/Table.tsx",
+      "name": "./src/components/table/Table.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/table/Table.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/table/index.ts"
+        }
+      ]
+    },
+    {
       "id": "./src/components/phone-input/PhoneInput.tsx",
       "name": "./src/components/phone-input/PhoneInput.tsx",
       "reasons": [
@@ -863,13 +881,13 @@
           "moduleName": "./src/components/fieldset/Fieldset.tsx"
         },
         {
-          "moduleName": "./src/components/button/Button.tsx"
-        },
-        {
           "moduleName": "./src/components/checkbox/Checkbox.tsx"
         },
         {
           "moduleName": "./src/components/breadcrumb/Breadcrumb.tsx"
+        },
+        {
+          "moduleName": "./src/components/button/Button.tsx"
         },
         {
           "moduleName": "./src/components/drop-down-filter/DropDownFilter.tsx"
