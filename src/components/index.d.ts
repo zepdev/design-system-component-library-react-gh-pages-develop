@@ -11,6 +11,7 @@ export * from './icon';
 export * from './input';
 export * from './link';
 export * from './media-text';
+export * from './pagination';
 export * from './phone-input';
 export * from './radio';
 export * from './spacing';
