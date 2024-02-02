@@ -17,5 +17,6 @@ export * from './radio';
 export * from './spacing';
 export * from './table';
 export * from './tabs';
+export * from './teaser';
 export * from './text-area';
 //# sourceMappingURL=index.d.ts.map
