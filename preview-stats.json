@@ -142,6 +142,15 @@
       ]
     },
     {
+      "id": "./src/components/small-hero/SmallHero.stories.tsx",
+      "name": "./src/components/small-hero/SmallHero.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
       "id": "./src/components/radio/Radio.stories.tsx",
       "name": "./src/components/radio/Radio.stories.tsx",
       "reasons": [
@@ -457,6 +466,18 @@
       ]
     },
     {
+      "id": "./src/components/small-hero/SmallHero.tsx",
+      "name": "./src/components/small-hero/SmallHero.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/small-hero/SmallHero.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/small-hero/index.ts"
+        }
+      ]
+    },
+    {
       "id": "./src/components/spacing/index.ts",
       "name": "./src/components/spacing/index.ts",
       "reasons": [
@@ -500,10 +521,10 @@
           "moduleName": "./src/components/button/Button.tsx"
         },
         {
-          "moduleName": "./src/components/accordion/Accordion.tsx"
+          "moduleName": "./src/components/index.ts"
         },
         {
-          "moduleName": "./src/components/index.ts"
+          "moduleName": "./src/components/accordion/Accordion.tsx"
         }
       ]
     },
@@ -985,18 +1006,6 @@
       ]
     },
     {
-      "id": "./src/utils/getDistanceToBottom.ts",
-      "name": "./src/utils/getDistanceToBottom.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/drop-down-filter/DropDownFilter.tsx"
-        },
-        {
-          "moduleName": "./src/components/drop-down/DropDown.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/phone-input/CountrySelect.tsx",
       "name": "./src/components/phone-input/CountrySelect.tsx",
       "reasons": [
@@ -1078,6 +1087,15 @@
       ]
     },
     {
+      "id": "./src/components/small-hero/index.ts",
+      "name": "./src/components/small-hero/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/index.ts"
+        }
+      ]
+    },
+    {
       "id": "./src/components/table/index.ts",
       "name": "./src/components/table/index.ts",
       "reasons": [
@@ -1101,6 +1119,18 @@
       "reasons": [
         {
           "moduleName": "./src/components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/utils/getDistanceToBottom.ts",
+      "name": "./src/utils/getDistanceToBottom.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/drop-down-filter/DropDownFilter.tsx"
+        },
+        {
+          "moduleName": "./src/components/drop-down/DropDown.tsx"
         }
       ]
     },

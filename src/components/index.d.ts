@@ -14,6 +14,7 @@ export * from './media-text';
 export * from './pagination';
 export * from './phone-input';
 export * from './radio';
+export * from './small-hero';
 export * from './spacing';
 export * from './table';
 export * from './tabs';
