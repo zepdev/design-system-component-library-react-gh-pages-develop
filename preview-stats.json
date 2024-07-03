@@ -532,18 +532,6 @@
       ]
     },
     {
-      "id": "./src/components/radio/Radio.tsx",
-      "name": "./src/components/radio/Radio.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/radio/index.ts"
-        },
-        {
-          "moduleName": "./src/components/radio/Radio.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/text-area/TextArea.tsx",
       "name": "./src/components/text-area/TextArea.tsx",
       "reasons": [
@@ -552,6 +540,18 @@
         },
         {
           "moduleName": "./src/components/text-area/TextArea.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/radio/Radio.tsx",
+      "name": "./src/components/radio/Radio.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/radio/index.ts"
+        },
+        {
+          "moduleName": "./src/components/radio/Radio.stories.tsx"
         }
       ]
     },
@@ -773,10 +773,10 @@
           "moduleName": "./src/components/checkbox/Checkbox.tsx"
         },
         {
-          "moduleName": "./src/components/breadcrumb/Breadcrumb.tsx"
+          "moduleName": "./src/components/button/Button.tsx"
         },
         {
-          "moduleName": "./src/components/button/Button.tsx"
+          "moduleName": "./src/components/breadcrumb/Breadcrumb.tsx"
         },
         {
           "moduleName": "./src/components/text-area/TextArea.tsx"
@@ -895,18 +895,6 @@
       ]
     },
     {
-      "id": "./src/components/breadcrumb/Breadcrumb.tsx",
-      "name": "./src/components/breadcrumb/Breadcrumb.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/breadcrumb/Breadcrumb.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/breadcrumb/index.ts"
-        }
-      ]
-    },
-    {
       "id": "./.storybook/modes.ts",
       "name": "./.storybook/modes.ts",
       "reasons": [
@@ -919,20 +907,23 @@
       ]
     },
     {
+      "id": "./src/components/breadcrumb/Breadcrumb.tsx",
+      "name": "./src/components/breadcrumb/Breadcrumb.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/breadcrumb/Breadcrumb.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/breadcrumb/index.ts"
+        }
+      ]
+    },
+    {
       "id": "./src/components/accordion/Accordion.tsx",
       "name": "./src/components/accordion/Accordion.tsx",
       "reasons": [
         {
           "moduleName": "./src/components/accordion/Accordion.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/new_components/hero/Hero.tsx",
-      "name": "./src/new_components/hero/Hero.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/new_components/hero/Hero.stories.tsx"
         }
       ]
     },
@@ -957,6 +948,15 @@
         },
         {
           "moduleName": "./src/components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/new_components/hero/Hero.tsx",
+      "name": "./src/new_components/hero/Hero.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/new_components/hero/Hero.stories.tsx"
         }
       ]
     },
@@ -1033,15 +1033,6 @@
       ]
     },
     {
-      "id": "./src/components/pagination/pageLink.tsx",
-      "name": "./src/components/pagination/pageLink.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/pagination/Pagination.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/index.ts",
       "name": "./src/components/index.ts",
       "reasons": [
@@ -1050,6 +1041,15 @@
         },
         {
           "moduleName": "./src/components/teaser/Teaser.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/pagination/pageLink.tsx",
+      "name": "./src/components/pagination/pageLink.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/pagination/Pagination.tsx"
         }
       ]
     },
