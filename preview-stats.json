@@ -568,18 +568,6 @@
       ]
     },
     {
-      "id": "./src/components/radio/Radio.tsx",
-      "name": "./src/components/radio/Radio.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/radio/index.ts"
-        },
-        {
-          "moduleName": "./src/components/radio/Radio.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/text-area/TextArea.tsx",
       "name": "./src/components/text-area/TextArea.tsx",
       "reasons": [
@@ -588,6 +576,18 @@
         },
         {
           "moduleName": "./src/components/text-area/TextArea.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/radio/Radio.tsx",
+      "name": "./src/components/radio/Radio.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/radio/index.ts"
+        },
+        {
+          "moduleName": "./src/components/radio/Radio.stories.tsx"
         }
       ]
     },
@@ -824,6 +824,9 @@
           "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
         },
         {
+          "moduleName": "./src/components/text-area/TextArea.tsx"
+        },
+        {
           "moduleName": "./src/components/link/Link.tsx"
         },
         {
@@ -836,16 +839,13 @@
           "moduleName": "./src/components/checkbox/Checkbox.tsx"
         },
         {
-          "moduleName": "./src/components/button/Button.tsx"
-        },
-        {
           "moduleName": "./src/components/breadcrumb/Breadcrumb.tsx"
         },
         {
-          "moduleName": "./src/new_components/USP/Usp.tsx"
+          "moduleName": "./src/components/button/Button.tsx"
         },
         {
-          "moduleName": "./src/components/text-area/TextArea.tsx"
+          "moduleName": "./src/new_components/USP/Usp.tsx"
         },
         {
           "moduleName": "./src/components/drop-down-filter/DropDownFilter.tsx"
@@ -952,18 +952,6 @@
       ]
     },
     {
-      "id": "./.storybook/modes.ts",
-      "name": "./.storybook/modes.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/button/Button.stories.tsx"
-        },
-        {
-          "moduleName": "./src/compositions/contact-form.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/breadcrumb/Breadcrumb.tsx",
       "name": "./src/components/breadcrumb/Breadcrumb.tsx",
       "reasons": [
@@ -976,11 +964,32 @@
       ]
     },
     {
+      "id": "./.storybook/modes.ts",
+      "name": "./.storybook/modes.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/button/Button.stories.tsx"
+        },
+        {
+          "moduleName": "./src/compositions/contact-form.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/accordion/Accordion.tsx",
       "name": "./src/components/accordion/Accordion.tsx",
       "reasons": [
         {
           "moduleName": "./src/components/accordion/Accordion.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/new_components/hero/Hero.tsx",
+      "name": "./src/new_components/hero/Hero.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/new_components/hero/Hero.stories.tsx"
         }
       ]
     },
@@ -1005,6 +1014,15 @@
         },
         {
           "moduleName": "./src/components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/new_components/card-media-component/CardMedia.tsx",
+      "name": "./src/new_components/card-media-component/CardMedia.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/new_components/card-media-component/CardMedia.stories.tsx"
         }
       ]
     },
@@ -1053,24 +1071,6 @@
         },
         {
           "moduleName": "./src/components/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/new_components/hero/Hero.tsx",
-      "name": "./src/new_components/hero/Hero.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/new_components/hero/Hero.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/new_components/card-media-component/CardMedia.tsx",
-      "name": "./src/new_components/card-media-component/CardMedia.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/new_components/card-media-component/CardMedia.stories.tsx"
         }
       ]
     },
