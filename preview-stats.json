@@ -85,6 +85,15 @@
       ]
     },
     {
+      "id": "./src/new_components/mediaText-simple/mediaText.stories.tsx",
+      "name": "./src/new_components/mediaText-simple/mediaText.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
       "id": "./src/new_components/hero/Hero.stories.tsx",
       "name": "./src/new_components/hero/Hero.stories.tsx",
       "reasons": [
@@ -376,6 +385,15 @@
       ]
     },
     {
+      "id": "./src/new_components/Teaser-simple/Teaser-simple.tsx",
+      "name": "./src/new_components/Teaser-simple/Teaser-simple.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/new_components/Teaser-simple/Teaser-simple.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/tooltip/Tooltip.tsx",
       "name": "./src/components/tooltip/Tooltip.tsx",
       "reasons": [
@@ -471,15 +489,6 @@
       "reasons": [
         {
           "moduleName": "./src/new_components/USP/Usp.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/new_components/Teaser-simple/Teaser-simple.tsx",
-      "name": "./src/new_components/Teaser-simple/Teaser-simple.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/new_components/Teaser-simple/Teaser-simple.stories.tsx"
         }
       ]
     },
@@ -665,6 +674,9 @@
           "moduleName": "./src/new_components/hero/Hero.tsx"
         },
         {
+          "moduleName": "./src/new_components/mediaText-simple/MediaText.tsx"
+        },
+        {
           "moduleName": "./src/components/accordion/Accordion.tsx"
         },
         {
@@ -713,16 +725,19 @@
           "moduleName": "./src/compositions/contact-form.stories.tsx"
         },
         {
-          "moduleName": "./src/components/pagination/Pagination.tsx"
+          "moduleName": "./src/new_components/Teaser-simple/Teaser-simple.tsx"
         },
         {
-          "moduleName": "./src/new_components/product-highlight/Product-highlight.tsx"
+          "moduleName": "./src/components/pagination/Pagination.tsx"
         },
         {
           "moduleName": "./src/new_components/hero/Hero.tsx"
         },
         {
-          "moduleName": "./src/new_components/Teaser-simple/Teaser-simple.tsx"
+          "moduleName": "./src/new_components/product-highlight/Product-highlight.tsx"
+        },
+        {
+          "moduleName": "./src/new_components/mediaText-simple/MediaText.tsx"
         },
         {
           "moduleName": "./src/components/index.ts"
@@ -792,18 +807,6 @@
         },
         {
           "moduleName": "./src/components/pagination/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/media-text/MediaText.tsx",
-      "name": "./src/components/media-text/MediaText.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/media-text/MediaText.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/media-text/index.ts"
         }
       ]
     },
@@ -949,6 +952,18 @@
       ]
     },
     {
+      "id": "./.storybook/modes.ts",
+      "name": "./.storybook/modes.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/button/Button.stories.tsx"
+        },
+        {
+          "moduleName": "./src/compositions/contact-form.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/tailwind/styles/focus.ts",
       "name": "./src/tailwind/styles/focus.ts",
       "reasons": [
@@ -956,10 +971,10 @@
           "moduleName": "./src/components/card/Card.stories.tsx"
         },
         {
-          "moduleName": "./src/compositions/Card.stories.tsx"
+          "moduleName": "./src/new_components/card-media-component/CardMedia.stories.tsx"
         },
         {
-          "moduleName": "./src/new_components/card-media-component/CardMedia.stories.tsx"
+          "moduleName": "./src/compositions/Card.stories.tsx"
         },
         {
           "moduleName": "./src/components/radio/Radio.tsx"
@@ -982,14 +997,11 @@
       ]
     },
     {
-      "id": "./.storybook/modes.ts",
-      "name": "./.storybook/modes.ts",
+      "id": "./src/components/accordion/Accordion.tsx",
+      "name": "./src/components/accordion/Accordion.tsx",
       "reasons": [
         {
-          "moduleName": "./src/components/button/Button.stories.tsx"
-        },
-        {
-          "moduleName": "./src/compositions/contact-form.stories.tsx"
+          "moduleName": "./src/components/accordion/Accordion.stories.tsx"
         }
       ]
     },
@@ -1006,11 +1018,14 @@
       ]
     },
     {
-      "id": "./src/components/accordion/Accordion.tsx",
-      "name": "./src/components/accordion/Accordion.tsx",
+      "id": "./src/components/media-text/MediaText.tsx",
+      "name": "./src/components/media-text/MediaText.tsx",
       "reasons": [
         {
-          "moduleName": "./src/components/accordion/Accordion.stories.tsx"
+          "moduleName": "./src/components/media-text/MediaText.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/media-text/index.ts"
         }
       ]
     },
@@ -1072,6 +1087,33 @@
       ]
     },
     {
+      "id": "./src/new_components/card-media-component/CardMedia.tsx",
+      "name": "./src/new_components/card-media-component/CardMedia.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/new_components/card-media-component/CardMedia.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/new_components/card-square/CardSquare.tsx",
+      "name": "./src/new_components/card-square/CardSquare.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/new_components/card-square/CardSqaure.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/new_components/mediaText-simple/MediaText.tsx",
+      "name": "./src/new_components/mediaText-simple/MediaText.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/new_components/mediaText-simple/mediaText.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/card/index.ts",
       "name": "./src/components/card/index.ts",
       "reasons": [
@@ -1092,24 +1134,6 @@
         },
         {
           "moduleName": "./src/components/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/new_components/card-media-component/CardMedia.tsx",
-      "name": "./src/new_components/card-media-component/CardMedia.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/new_components/card-media-component/CardMedia.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/new_components/card-square/CardSquare.tsx",
-      "name": "./src/new_components/card-square/CardSquare.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/new_components/card-square/CardSqaure.stories.tsx"
         }
       ]
     },
@@ -1135,6 +1159,18 @@
       ]
     },
     {
+      "id": "./src/utils/getDistanceToBottom.ts",
+      "name": "./src/utils/getDistanceToBottom.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/drop-down-filter/DropDownFilter.tsx"
+        },
+        {
+          "moduleName": "./src/components/drop-down/DropDown.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/phone-input/CountrySelect.tsx",
       "name": "./src/components/phone-input/CountrySelect.tsx",
       "reasons": [
@@ -1149,18 +1185,6 @@
       "reasons": [
         {
           "moduleName": "./src/components/phone-input/PhoneInput.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/utils/getDistanceToBottom.ts",
-      "name": "./src/utils/getDistanceToBottom.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/drop-down-filter/DropDownFilter.tsx"
-        },
-        {
-          "moduleName": "./src/components/drop-down/DropDown.tsx"
         }
       ]
     },
