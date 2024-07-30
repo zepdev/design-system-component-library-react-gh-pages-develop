@@ -169,8 +169,8 @@
       ]
     },
     {
-      "id": "./src/components/teaser/Teaser.stories.tsx",
-      "name": "./src/components/teaser/Teaser.stories.tsx",
+      "id": "./src/components/tabs/Tabs.stories.tsx",
+      "name": "./src/components/tabs/Tabs.stories.tsx",
       "reasons": [
         {
           "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
@@ -178,8 +178,8 @@
       ]
     },
     {
-      "id": "./src/components/tabs/Tabs.stories.tsx",
-      "name": "./src/components/tabs/Tabs.stories.tsx",
+      "id": "./src/components/teaser/Teaser.stories.tsx",
+      "name": "./src/components/teaser/Teaser.stories.tsx",
       "reasons": [
         {
           "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
@@ -385,6 +385,24 @@
       ]
     },
     {
+      "id": "./src/new_components/Teaser-simple/Teaser-simple.tsx",
+      "name": "./src/new_components/Teaser-simple/Teaser-simple.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/new_components/Teaser-simple/Teaser-simple.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/tooltip/Tooltip.tsx",
+      "name": "./src/components/tooltip/Tooltip.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/tooltip/Tooltip.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/link/Link.tsx",
       "name": "./src/components/link/Link.tsx",
       "reasons": [
@@ -475,20 +493,14 @@
       ]
     },
     {
-      "id": "./src/new_components/Teaser-simple/Teaser-simple.tsx",
-      "name": "./src/new_components/Teaser-simple/Teaser-simple.tsx",
+      "id": "./src/components/spacing/Spacing.tsx",
+      "name": "./src/components/spacing/Spacing.tsx",
       "reasons": [
         {
-          "moduleName": "./src/new_components/Teaser-simple/Teaser-simple.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/tooltip/Tooltip.tsx",
-      "name": "./src/components/tooltip/Tooltip.tsx",
-      "reasons": [
+          "moduleName": "./src/components/spacing/index.ts"
+        },
         {
-          "moduleName": "./src/components/tooltip/Tooltip.stories.tsx"
+          "moduleName": "./src/components/spacing/Spacing.stories.tsx"
         }
       ]
     },
@@ -520,18 +532,6 @@
       ]
     },
     {
-      "id": "./src/components/spacing/Spacing.tsx",
-      "name": "./src/components/spacing/Spacing.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/spacing/index.ts"
-        },
-        {
-          "moduleName": "./src/components/spacing/Spacing.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/fieldset/Fieldset.tsx",
       "name": "./src/components/fieldset/Fieldset.tsx",
       "reasons": [
@@ -552,6 +552,18 @@
         },
         {
           "moduleName": "./src/components/checkbox/Checkbox.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/text-area/TextArea.tsx",
+      "name": "./src/components/text-area/TextArea.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/text-area/index.ts"
+        },
+        {
+          "moduleName": "./src/components/text-area/TextArea.stories.tsx"
         }
       ]
     },
@@ -592,18 +604,6 @@
       ]
     },
     {
-      "id": "./src/components/text-area/TextArea.tsx",
-      "name": "./src/components/text-area/TextArea.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/text-area/index.ts"
-        },
-        {
-          "moduleName": "./src/components/text-area/TextArea.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/card/Card.tsx",
       "name": "./src/components/card/Card.tsx",
       "reasons": [
@@ -628,93 +628,12 @@
       ]
     },
     {
-      "id": "./src/components/teaser/Teaser.tsx",
-      "name": "./src/components/teaser/Teaser.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/teaser/Teaser.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/teaser/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/tabs/Tab.tsx",
-      "name": "./src/components/tabs/Tab.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/tabs/Tabs.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/tabs/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/button/index.ts",
-      "name": "./src/components/button/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/table/Table.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/input/Input.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/hero/hero.stories.tsx"
-        },
-        {
-          "moduleName": "./src/compositions/contact-form.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/pagination/Pagination.tsx"
-        },
-        {
-          "moduleName": "./src/new_components/product-highlight/Product-highlight.tsx"
-        },
-        {
-          "moduleName": "./src/new_components/mediaText-simple/MediaText.tsx"
-        },
-        {
-          "moduleName": "./src/new_components/hero/Hero.tsx"
-        },
-        {
-          "moduleName": "./src/new_components/Teaser-simple/Teaser-simple.tsx"
-        },
-        {
-          "moduleName": "./src/components/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/table/Table.tsx",
-      "name": "./src/components/table/Table.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/table/Table.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/table/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/small-hero/SmallHero.tsx",
-      "name": "./src/components/small-hero/SmallHero.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/small-hero/SmallHero.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/small-hero/index.ts"
-        }
-      ]
-    },
-    {
       "id": "./src/components/spacing/index.ts",
       "name": "./src/components/spacing/index.ts",
       "reasons": [
+        {
+          "moduleName": "./src/components/typography/Typography.stories.tsx"
+        },
         {
           "moduleName": "./src/components/radio/Radio.stories.tsx"
         },
@@ -749,9 +668,6 @@
           "moduleName": "./src/compositions/contact-form.stories.tsx"
         },
         {
-          "moduleName": "./src/components/typography/Typography.stories.tsx"
-        },
-        {
           "moduleName": "./src/components/button/Button.tsx"
         },
         {
@@ -765,6 +681,90 @@
         },
         {
           "moduleName": "./src/components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/tabs/Tab.tsx",
+      "name": "./src/components/tabs/Tab.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/tabs/Tabs.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/tabs/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/teaser/Teaser.tsx",
+      "name": "./src/components/teaser/Teaser.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/teaser/Teaser.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/teaser/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/button/index.ts",
+      "name": "./src/components/button/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/table/Table.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/input/Input.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/hero/hero.stories.tsx"
+        },
+        {
+          "moduleName": "./src/compositions/contact-form.stories.tsx"
+        },
+        {
+          "moduleName": "./src/new_components/Teaser-simple/Teaser-simple.tsx"
+        },
+        {
+          "moduleName": "./src/components/pagination/Pagination.tsx"
+        },
+        {
+          "moduleName": "./src/new_components/product-highlight/Product-highlight.tsx"
+        },
+        {
+          "moduleName": "./src/new_components/mediaText-simple/MediaText.tsx"
+        },
+        {
+          "moduleName": "./src/new_components/hero/Hero.tsx"
+        },
+        {
+          "moduleName": "./src/components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/table/Table.tsx",
+      "name": "./src/components/table/Table.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/table/Table.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/table/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/small-hero/SmallHero.tsx",
+      "name": "./src/components/small-hero/SmallHero.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/small-hero/SmallHero.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/small-hero/index.ts"
         }
       ]
     },
@@ -869,6 +869,9 @@
           "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
         },
         {
+          "moduleName": "./src/components/text-area/TextArea.tsx"
+        },
+        {
           "moduleName": "./src/components/link/Link.tsx"
         },
         {
@@ -888,9 +891,6 @@
         },
         {
           "moduleName": "./src/new_components/USP/Usp.tsx"
-        },
-        {
-          "moduleName": "./src/components/text-area/TextArea.tsx"
         },
         {
           "moduleName": "./src/components/drop-down-filter/DropDownFilter.tsx"
@@ -1171,6 +1171,24 @@
       ]
     },
     {
+      "id": "./src/components/phone-input/CountrySelect.tsx",
+      "name": "./src/components/phone-input/CountrySelect.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/phone-input/PhoneInput.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/phone-input/PhoneInput.css",
+      "name": "./src/components/phone-input/PhoneInput.css",
+      "reasons": [
+        {
+          "moduleName": "./src/components/phone-input/PhoneInput.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/breadcrumb/index.ts",
       "name": "./src/components/breadcrumb/index.ts",
       "reasons": [
@@ -1266,24 +1284,6 @@
       "reasons": [
         {
           "moduleName": "./src/components/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/phone-input/CountrySelect.tsx",
-      "name": "./src/components/phone-input/CountrySelect.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/phone-input/PhoneInput.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/phone-input/PhoneInput.css",
-      "name": "./src/components/phone-input/PhoneInput.css",
-      "reasons": [
-        {
-          "moduleName": "./src/components/phone-input/PhoneInput.tsx"
         }
       ]
     },
