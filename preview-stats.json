@@ -139,6 +139,15 @@
       ]
     },
     {
+      "id": "./src/new_components/richText/RichText.stories.tsx",
+      "name": "./src/new_components/richText/RichText.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
       "id": "./src/components/typography/Typography.stories.tsx",
       "name": "./src/components/typography/Typography.stories.tsx",
       "reasons": [
@@ -277,6 +286,15 @@
       ]
     },
     {
+      "id": "./src/components/hero/hero.stories.tsx",
+      "name": "./src/components/hero/hero.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
       "id": "./src/components/icon/ProductIcon.stories.tsx",
       "name": "./src/components/icon/ProductIcon.stories.tsx",
       "reasons": [
@@ -288,15 +306,6 @@
     {
       "id": "./src/components/icon/FunctionalIcon.stories.tsx",
       "name": "./src/components/icon/FunctionalIcon.stories.tsx",
-      "reasons": [
-        {
-          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/hero/hero.stories.tsx",
-      "name": "./src/components/hero/hero.stories.tsx",
       "reasons": [
         {
           "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
@@ -385,15 +394,6 @@
       ]
     },
     {
-      "id": "./src/powerSystemes-components/Teaser-simple/Teaser-simple.tsx",
-      "name": "./src/powerSystemes-components/Teaser-simple/Teaser-simple.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/powerSystemes-components/Teaser-simple/Teaser-simple.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/tooltip/Tooltip.tsx",
       "name": "./src/components/tooltip/Tooltip.tsx",
       "reasons": [
@@ -423,6 +423,9 @@
         },
         {
           "moduleName": "./src/components/link/index.ts"
+        },
+        {
+          "moduleName": "./src/new_components/richText/RichText.tsx"
         },
         {
           "moduleName": "./src/components/link/Link.tsx"
@@ -493,6 +496,15 @@
       ]
     },
     {
+      "id": "./src/powerSystemes-components/Teaser-simple/Teaser-simple.tsx",
+      "name": "./src/powerSystemes-components/Teaser-simple/Teaser-simple.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/powerSystemes-components/Teaser-simple/Teaser-simple.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/spacing/Spacing.tsx",
       "name": "./src/components/spacing/Spacing.tsx",
       "reasons": [
@@ -556,30 +568,6 @@
       ]
     },
     {
-      "id": "./src/components/card/Card.tsx",
-      "name": "./src/components/card/Card.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/card/index.ts"
-        },
-        {
-          "moduleName": "./src/components/card/Card.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/grid/Grid.tsx",
-      "name": "./src/components/grid/Grid.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/grid/index.ts"
-        },
-        {
-          "moduleName": "./src/components/grid/Grid.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/drop-down/DropDown.tsx",
       "name": "./src/components/drop-down/DropDown.tsx",
       "reasons": [
@@ -628,6 +616,39 @@
       ]
     },
     {
+      "id": "./src/components/card/Card.tsx",
+      "name": "./src/components/card/Card.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/card/index.ts"
+        },
+        {
+          "moduleName": "./src/components/card/Card.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/grid/Grid.tsx",
+      "name": "./src/components/grid/Grid.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/grid/index.ts"
+        },
+        {
+          "moduleName": "./src/components/grid/Grid.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/new_components/richText/RichText.tsx",
+      "name": "./src/new_components/richText/RichText.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/new_components/richText/RichText.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/spacing/index.ts",
       "name": "./src/components/spacing/index.ts",
       "reasons": [
@@ -641,13 +662,13 @@
           "moduleName": "./src/components/input/Input.stories.tsx"
         },
         {
+          "moduleName": "./src/components/hero/hero.stories.tsx"
+        },
+        {
           "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
         },
         {
           "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/hero/hero.stories.tsx"
         },
         {
           "moduleName": "./src/components/fieldset/Fieldset.stories.tsx"
@@ -671,10 +692,10 @@
           "moduleName": "./src/components/button/Button.tsx"
         },
         {
-          "moduleName": "./src/powerSystemes-components/hero/Hero.tsx"
+          "moduleName": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx"
         },
         {
-          "moduleName": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx"
+          "moduleName": "./src/powerSystemes-components/hero/Hero.tsx"
         },
         {
           "moduleName": "./src/components/accordion/Accordion.tsx"
@@ -725,19 +746,19 @@
           "moduleName": "./src/compositions/contact-form.stories.tsx"
         },
         {
-          "moduleName": "./src/powerSystemes-components/Teaser-simple/Teaser-simple.tsx"
-        },
-        {
           "moduleName": "./src/components/pagination/Pagination.tsx"
         },
         {
-          "moduleName": "./src/powerSystemes-components/hero/Hero.tsx"
+          "moduleName": "./src/powerSystemes-components/product-highlight/Product-highlight.tsx"
         },
         {
           "moduleName": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx"
         },
         {
-          "moduleName": "./src/powerSystemes-components/product-highlight/Product-highlight.tsx"
+          "moduleName": "./src/powerSystemes-components/hero/Hero.tsx"
+        },
+        {
+          "moduleName": "./src/powerSystemes-components/Teaser-simple/Teaser-simple.tsx"
         },
         {
           "moduleName": "./src/components/index.ts"
@@ -836,10 +857,13 @@
           "moduleName": "./src/components/breadcrumb/Breadcrumb.stories.tsx"
         },
         {
+          "moduleName": "./src/compositions/contact-form.stories.tsx"
+        },
+        {
           "moduleName": "./src/compositions/Card.stories.tsx"
         },
         {
-          "moduleName": "./src/compositions/contact-form.stories.tsx"
+          "moduleName": "./src/new_components/richText/RichText.tsx"
         },
         {
           "moduleName": "./src/powerSystemes-components/card-media-component/CardMedia.tsx"
@@ -855,6 +879,21 @@
       "reasons": [
         {
           "moduleName": "./src/components/list/List.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/list/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/hero/Hero.tsx",
+      "name": "./src/components/hero/Hero.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/hero/hero.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/hero/index.ts"
         }
       ]
     },
@@ -921,18 +960,6 @@
         },
         {
           "moduleName": "./src/components/icon/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/hero/Hero.tsx",
-      "name": "./src/components/hero/Hero.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/hero/hero.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/hero/index.ts"
         }
       ]
     },
@@ -1030,66 +1057,6 @@
       ]
     },
     {
-      "id": "./src/components/card/index.ts",
-      "name": "./src/components/card/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/compositions/Card.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/grid/index.ts",
-      "name": "./src/components/grid/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/compositions/Card.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/powerSystemes-components/card-square/CardSquare.tsx",
-      "name": "./src/powerSystemes-components/card-square/CardSquare.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/powerSystemes-components/card-square/CardSqaure.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/powerSystemes-components/hero/Hero.tsx",
-      "name": "./src/powerSystemes-components/hero/Hero.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/powerSystemes-components/hero/Hero.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx",
-      "name": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/powerSystemes-components/mediaText-simple/mediaText.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/powerSystemes-components/card-media-component/CardMedia.tsx",
-      "name": "./src/powerSystemes-components/card-media-component/CardMedia.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/powerSystemes-components/card-media-component/CardMedia.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/drop-down/index.ts",
       "name": "./src/components/drop-down/index.ts",
       "reasons": [
@@ -1134,6 +1101,75 @@
         },
         {
           "moduleName": "./src/components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/card/index.ts",
+      "name": "./src/components/card/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/compositions/Card.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/grid/index.ts",
+      "name": "./src/components/grid/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/compositions/Card.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx",
+      "name": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/powerSystemes-components/mediaText-simple/mediaText.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/powerSystemes-components/card-square/CardSquare.tsx",
+      "name": "./src/powerSystemes-components/card-square/CardSquare.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/powerSystemes-components/card-square/CardSqaure.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/powerSystemes-components/hero/Hero.tsx",
+      "name": "./src/powerSystemes-components/hero/Hero.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/powerSystemes-components/hero/Hero.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/powerSystemes-components/card-media-component/CardMedia.tsx",
+      "name": "./src/powerSystemes-components/card-media-component/CardMedia.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/powerSystemes-components/card-media-component/CardMedia.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/list/index.ts",
+      "name": "./src/components/list/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/new_components/richText/RichText.tsx"
         }
       ]
     },
