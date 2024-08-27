@@ -34,8 +34,6 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 export declare const Inline: Story;
 export declare const Standalone: Story;
-export declare const IconPlacementInLine: Story;
-export declare const IconPlacementStandalone: Story;
 export declare const Disabled: Story;
 export declare const Small: Story;
 export declare const Icon: Story;
