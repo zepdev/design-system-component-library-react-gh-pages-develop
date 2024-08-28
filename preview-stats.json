@@ -1004,10 +1004,10 @@
           "moduleName": "./src/components/text-area/TextArea.tsx"
         },
         {
-          "moduleName": "./src/components/input/Input.tsx"
+          "moduleName": "./src/components/link/Link.tsx"
         },
         {
-          "moduleName": "./src/components/link/Link.tsx"
+          "moduleName": "./src/components/input/Input.tsx"
         },
         {
           "moduleName": "./src/components/fieldset/Fieldset.tsx"
@@ -1129,6 +1129,15 @@
       ]
     },
     {
+      "id": "./src/powerSystemes-components/richText/RichText.tsx",
+      "name": "./src/powerSystemes-components/richText/RichText.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/powerSystemes-components/richText/RichText.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/card/index.ts",
       "name": "./src/components/card/index.ts",
       "reasons": [
@@ -1149,6 +1158,15 @@
         },
         {
           "moduleName": "./src/components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx",
+      "name": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/powerSystemes-components/mediaText-simple/mediaText.stories.tsx"
         }
       ]
     },
@@ -1201,24 +1219,6 @@
       ]
     },
     {
-      "id": "./src/powerSystemes-components/richText/RichText.tsx",
-      "name": "./src/powerSystemes-components/richText/RichText.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/powerSystemes-components/richText/RichText.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx",
-      "name": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/powerSystemes-components/mediaText-simple/mediaText.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/powerSystemes-components/hero/Hero.tsx",
       "name": "./src/powerSystemes-components/hero/Hero.tsx",
       "reasons": [
@@ -1258,18 +1258,6 @@
       ]
     },
     {
-      "id": "./src/utils/getDistanceToBottom.ts",
-      "name": "./src/utils/getDistanceToBottom.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/drop-down-filter/DropDownFilter.tsx"
-        },
-        {
-          "moduleName": "./src/components/drop-down/DropDown.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/phone-input/CountrySelect.tsx",
       "name": "./src/components/phone-input/CountrySelect.tsx",
       "reasons": [
@@ -1284,6 +1272,18 @@
       "reasons": [
         {
           "moduleName": "./src/components/phone-input/PhoneInput.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/utils/getDistanceToBottom.ts",
+      "name": "./src/utils/getDistanceToBottom.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/drop-down-filter/DropDownFilter.tsx"
+        },
+        {
+          "moduleName": "./src/components/drop-down/DropDown.tsx"
         }
       ]
     },
