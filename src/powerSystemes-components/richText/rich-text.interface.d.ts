@@ -17,6 +17,8 @@ export interface Block {
         length: number;
         key: number;
     }>;
+    items: string[];
+    ordered: boolean;
 }
 export interface EntityMap {
     [key: string]: {
@@ -30,6 +32,13 @@ export interface EntityMap {
 export interface Content {
     blocks: Block[];
     entityMap: EntityMap;
+    images: Array<{
+        offset: number;
+        length: number;
+        key: number;
+        alt: string;
+        src: string;
+    }>;
 }
 export interface RichTextProps {
     content: Content;

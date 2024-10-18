@@ -20,7 +20,7 @@ export interface LinkProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
     size?: LinkSize;
     target?: LinkTarget;
     icon?: FunctionalIconNames;
-    hasIcon: boolean;
+    hasIcon?: boolean;
     iconPlacement?: 'before' | 'after';
     className?: string;
 }

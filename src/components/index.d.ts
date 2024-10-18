@@ -1,3 +1,4 @@
+export * from './accordion';
 export * from './breadcrumb';
 export * from './button';
 export * from './card';
@@ -10,6 +11,7 @@ export * from './hero';
 export * from './icon';
 export * from './input';
 export * from './link';
+export * from './list';
 export * from './media-text';
 export * from './pagination';
 export * from './phone-input';
