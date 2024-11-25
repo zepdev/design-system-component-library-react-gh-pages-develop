@@ -22,7 +22,7 @@ export interface LinkProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
     icon?: FunctionalIconNames;
     hasIcon?: boolean;
     socialMediaIcon?: boolean;
-    socialIcon: SocialMediaIconNames;
+    socialIcon?: SocialMediaIconNames;
     iconPlacement?: 'before' | 'after';
     className?: string;
 }
