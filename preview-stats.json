@@ -214,6 +214,15 @@
       ]
     },
     {
+      "id": "./src/components/toggle/Toggle.stories.tsx",
+      "name": "./src/components/toggle/Toggle.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
       "id": "./src/components/text-area/TextArea.stories.tsx",
       "name": "./src/components/text-area/TextArea.stories.tsx",
       "reasons": [
@@ -493,6 +502,15 @@
       ]
     },
     {
+      "id": "./src/components/toggle/Toggle.tsx",
+      "name": "./src/components/toggle/Toggle.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/toggle/Toggle.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/table/Table.tsx",
       "name": "./src/components/table/Table.tsx",
       "reasons": [
@@ -593,10 +611,10 @@
           "moduleName": "./src/components/link/Link.tsx"
         },
         {
-          "moduleName": "./src/powerSystemes-components/process-chain/ProcessChain.tsx"
+          "moduleName": "./src/powerSystemes-components/richText/RichText.tsx"
         },
         {
-          "moduleName": "./src/powerSystemes-components/richText/RichText.tsx"
+          "moduleName": "./src/powerSystemes-components/process-chain/ProcessChain.tsx"
         },
         {
           "moduleName": "./src/powerSystemes-components/link-list/linkList.tsx"
@@ -754,6 +772,30 @@
       ]
     },
     {
+      "id": "./src/components/card/Card.tsx",
+      "name": "./src/components/card/Card.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/card/index.ts"
+        },
+        {
+          "moduleName": "./src/components/card/Card.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/grid/Grid.tsx",
+      "name": "./src/components/grid/Grid.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/grid/index.ts"
+        },
+        {
+          "moduleName": "./src/components/grid/Grid.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/drop-down/DropDown.tsx",
       "name": "./src/components/drop-down/DropDown.tsx",
       "reasons": [
@@ -798,30 +840,6 @@
         },
         {
           "moduleName": "./src/components/text-area/TextArea.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/card/Card.tsx",
-      "name": "./src/components/card/Card.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/card/index.ts"
-        },
-        {
-          "moduleName": "./src/components/card/Card.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/grid/Grid.tsx",
-      "name": "./src/components/grid/Grid.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/grid/index.ts"
-        },
-        {
-          "moduleName": "./src/components/grid/Grid.stories.tsx"
         }
       ]
     },
@@ -932,10 +950,10 @@
           "moduleName": "./src/powerSystemes-components/hero/Hero.tsx"
         },
         {
-          "moduleName": "./src/components/button/Button.tsx"
+          "moduleName": "./src/powerSystemes-components/zps-button/ZpsButton.tsx"
         },
         {
-          "moduleName": "./src/powerSystemes-components/zps-button/ZpsButton.tsx"
+          "moduleName": "./src/components/button/Button.tsx"
         },
         {
           "moduleName": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx"
@@ -1046,10 +1064,10 @@
           "moduleName": "./src/components/list/List.stories.tsx"
         },
         {
-          "moduleName": "./src/compositions/contact-form.stories.tsx"
+          "moduleName": "./src/compositions/Card.stories.tsx"
         },
         {
-          "moduleName": "./src/compositions/Card.stories.tsx"
+          "moduleName": "./src/compositions/contact-form.stories.tsx"
         },
         {
           "moduleName": "./src/components/card/Card.stories.tsx"
@@ -1139,13 +1157,13 @@
           "moduleName": "./src/components/checkbox/Checkbox.tsx"
         },
         {
+          "moduleName": "./src/powerSystemes-components/zps-button/ZpsButton.tsx"
+        },
+        {
           "moduleName": "./src/components/button/Button.tsx"
         },
         {
           "moduleName": "./src/components/breadcrumb/Breadcrumb.tsx"
-        },
-        {
-          "moduleName": "./src/powerSystemes-components/zps-button/ZpsButton.tsx"
         },
         {
           "moduleName": "./src/components/drop-down-filter/DropDownFilter.tsx"
@@ -1222,6 +1240,30 @@
       ]
     },
     {
+      "id": "./src/components/card/index.ts",
+      "name": "./src/components/card/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/compositions/Card.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/grid/index.ts",
+      "name": "./src/components/grid/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/compositions/Card.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/index.ts"
+        }
+      ]
+    },
+    {
       "id": "./.storybook/modes.ts",
       "name": "./.storybook/modes.ts",
       "reasons": [
@@ -1275,30 +1317,6 @@
       "reasons": [
         {
           "moduleName": "./src/compositions/contact-form.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/card/index.ts",
-      "name": "./src/components/card/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/compositions/Card.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/grid/index.ts",
-      "name": "./src/components/grid/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/compositions/Card.stories.tsx"
         },
         {
           "moduleName": "./src/components/index.ts"
@@ -1521,6 +1539,15 @@
     {
       "id": "./src/components/teaser/index.ts",
       "name": "./src/components/teaser/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/toggle/index.ts",
+      "name": "./src/components/toggle/index.ts",
       "reasons": [
         {
           "moduleName": "./src/components/index.ts"
