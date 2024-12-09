@@ -1,6 +1,5 @@
-import { PaginationProps } from './pagination.interface';
+import { PaginationProps } from '../../components/pagination/pagination.interface';
 import { FC } from 'react';
-
 export declare const getPaginationItems: (currentPage: number, lastPage: number, maxLength: number) => number[];
 declare const Pagination: FC<PaginationProps>;
 export { Pagination };

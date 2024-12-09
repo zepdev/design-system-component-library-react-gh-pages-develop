@@ -1,5 +1,4 @@
 import { DefaultInputComponentProps, Props } from 'react-phone-number-input';
-
 export interface PhoneInputProps extends Pick<Props<DefaultInputComponentProps>, 'value' | 'onChange' | 'readOnly' | 'className' | 'disabled' | 'defaultCountry'> {
     id?: string;
     label?: string;

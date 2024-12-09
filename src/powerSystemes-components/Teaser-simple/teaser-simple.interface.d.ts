@@ -1,5 +1,4 @@
 import { ButtonHTMLAttributes, MouseEvent } from 'react';
-
 export interface TeaserSimpleProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     teaserText: string;
     buttonText: string;

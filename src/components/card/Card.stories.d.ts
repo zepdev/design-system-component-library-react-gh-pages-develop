@@ -1,9 +1,8 @@
-import { StoryObj } from '@storybook/react';
+import type { StoryObj } from '@storybook/react';
 import { CardProps } from './card.interface';
-
 declare const meta: {
     title: string;
-    component: import('react').FC<CardProps>;
+    component: import("react").FC<CardProps>;
     tags: string[];
     argTypes: {};
 };

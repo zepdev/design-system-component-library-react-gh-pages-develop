@@ -1,9 +1,8 @@
-import { StoryObj } from '@storybook/react';
+import type { StoryObj } from '@storybook/react';
 import { LinkMode, LinkProps, LinkSize, LinkTarget } from './link.interface';
-
 declare const meta: {
     title: string;
-    component: import('react').FC<LinkProps>;
+    component: import("react").FC<LinkProps>;
     tags: string[];
     argTypes: {
         disabled: {

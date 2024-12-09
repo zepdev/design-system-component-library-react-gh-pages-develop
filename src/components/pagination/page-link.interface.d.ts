@@ -1,5 +1,4 @@
 import { HTMLAttributes } from 'react';
-
 export interface PageLinkProps extends HTMLAttributes<HTMLAnchorElement> {
     Comp?: any;
     active?: boolean;

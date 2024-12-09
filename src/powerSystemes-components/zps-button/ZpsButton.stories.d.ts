@@ -1,9 +1,8 @@
-import { StoryObj } from '@storybook/react';
+import type { StoryObj } from '@storybook/react';
 import { ZpsButtonProps, ZpsButtonVariant } from './zps-button.interface';
-
 declare const meta: {
     title: string;
-    component: import('react').FC<ZpsButtonProps>;
+    component: import("react").FC<ZpsButtonProps>;
     tags: string[];
     argTypes: {
         disabled: {

@@ -1,8 +1,7 @@
-import { StoryObj } from '@storybook/react';
-
+import type { StoryObj } from '@storybook/react';
 declare const meta: {
     title: string;
-    component: import('react').FC<import('./grid.interface').GridProps>;
+    component: import("react").FC<import("./grid.interface").GridProps>;
     tags: string[];
     argTypes: {
         children: {

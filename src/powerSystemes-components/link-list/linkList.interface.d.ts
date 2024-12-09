@@ -1,6 +1,5 @@
 import { FunctionalIconNames } from 'lib';
 import { HTMLAttributes } from 'react';
-
 export interface LinkItem {
     icon: FunctionalIconNames;
     link: string;

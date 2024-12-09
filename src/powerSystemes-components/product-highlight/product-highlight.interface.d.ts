@@ -1,5 +1,4 @@
 import { ButtonHTMLAttributes, MouseEvent } from 'react';
-
 export type ProductItem = {
     title?: string;
     content: string;

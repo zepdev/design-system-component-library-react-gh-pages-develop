@@ -1,9 +1,8 @@
-import { StoryObj } from '@storybook/react';
-
+import type { StoryObj } from '@storybook/react';
 declare const meta: {
     title: string;
     tags: string[];
-    component: import('react').FC<import('./icon.interface').SocialMediaIconProps>;
+    component: import("react").FC<import("./icon.interface").SocialMediaIconProps>;
     argTypes: {
         name: {
             control: {

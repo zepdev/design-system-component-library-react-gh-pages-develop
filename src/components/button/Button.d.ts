@@ -1,5 +1,4 @@
 import { ButtonProps, ButtonVariant } from './button.interface';
-
 export declare const buttonVariants: {
     primary: string[];
     secondary: string[];
@@ -13,6 +12,6 @@ export declare const buttonVariants: {
 };
 export declare const button: (props?: ({
     variant?: ButtonVariant | null | undefined;
-} & import('class-variance-authority/dist/types').ClassProp) | undefined) => string;
+} & import("class-variance-authority/dist/types").ClassProp) | undefined) => string;
 export declare const Button: React.FC<ButtonProps>;
 //# sourceMappingURL=Button.d.ts.map

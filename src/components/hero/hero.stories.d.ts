@@ -1,9 +1,8 @@
-import { StoryObj } from '@storybook/react';
+import type { StoryObj } from '@storybook/react';
 import { HeroProps } from './hero.interface';
-
 declare const meta: {
     title: string;
-    component: import('react').FC<HeroProps>;
+    component: import("react").FC<HeroProps>;
     argTypes: {
         imagePath: {
             control: {

@@ -1,9 +1,8 @@
-import { StoryObj } from '@storybook/react';
+import type { StoryObj } from '@storybook/react';
 import { ButtonProps, ButtonVariant } from './button.interface';
-
 declare const meta: {
     title: string;
-    component: import('react').FC<ButtonProps>;
+    component: import("react").FC<ButtonProps>;
     tags: string[];
     argTypes: {
         disabled: {

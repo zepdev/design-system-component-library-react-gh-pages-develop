@@ -1,6 +1,5 @@
 import { AnchorHTMLAttributes, ElementType } from 'react';
 import { FunctionalIconNames, SocialMediaIconNames } from '../icon';
-
 export declare enum LinkMode {
     Standalone = "standalone",
     Inline = "inline"

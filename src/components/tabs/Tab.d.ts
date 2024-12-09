@@ -1,5 +1,4 @@
 import { TabGroupProps, TabListProps, TabPanelProps, TabPanelsProps, TabProps } from './tab.interface';
-
 declare const Tab: {
     ({ disabled, children }: TabProps): import("react/jsx-dev-runtime").JSX.Element;
     Group: ({ children }: TabGroupProps) => import("react/jsx-dev-runtime").JSX.Element;

@@ -1,29 +1,26 @@
-import { default as React, MouseEvent } from 'react';
-import { FunctionalIconNames } from '../icon';
-
+import { MouseEvent } from 'react';
 export declare enum TableThemes {
     Zps = "ZPS",
     Cat = "CAT"
 }
-export declare enum CellType {
+export declare enum cellType {
     Text = "text",
-    Button = "button"
+    Icon = "icon",
+    Booliean = "boolean"
 }
-export interface ColumnProps<T = {}> extends Omit<React.HTMLAttributes<HTMLTableElement>, 'onClick'> {
-    onClick?: (text: string, row: T, index: number) => void;
-    iconName?: FunctionalIconNames;
-    title?: string;
+export interface TableCell extends React.HTMLAttributes<HTMLTableElement> {
+    value: string;
+    type: cellType;
 }
-export interface TableColumn<T> extends Omit<React.HTMLAttributes<HTMLTableElement>, 'title'> {
-    title: string | React.ReactNode;
-    key: string;
-    dataIndex: string;
-    renderAs?: CellType;
-    props?: ColumnProps<T>;
+export interface TableRow extends React.HTMLAttributes<HTMLTableElement> {
+    rowCells: TableCell[];
 }
-export interface TableProps<T = {}> extends React.HTMLAttributes<HTMLTableElement> {
-    dataSource: T[];
-    columns: TableColumn<T>[];
+export interface TableHeads extends React.HTMLAttributes<HTMLTableElement> {
+    name: string;
+}
+export interface TableProps extends React.HTMLAttributes<HTMLTableElement> {
+    rows: TableRow[];
+    columnNames: TableHeads[];
     maxWidth?: number;
     maxHeight?: number;
     fullWidth?: boolean;
@@ -34,6 +31,7 @@ export interface TableProps<T = {}> extends React.HTMLAttributes<HTMLTableElemen
     buttonLabel: string;
     align?: 'left' | 'center' | 'right';
     tableButtonOnClick: (ev: MouseEvent<HTMLElement>) => void;
+    iconButtonOnClick?: (ev: MouseEvent<HTMLElement>) => void;
 }
 export interface TableBodyProps extends React.HTMLAttributes<HTMLTableSectionElement> {
     children: React.ReactNode;
@@ -52,7 +50,5 @@ export interface TableHeadProps extends React.HTMLAttributes<HTMLTableSectionEle
 }
 export interface TableRowProps extends React.HTMLAttributes<HTMLTableRowElement> {
     children: React.ReactNode;
-}
-export declare class cellType {
 }
 //# sourceMappingURL=table.interface.d.ts.map

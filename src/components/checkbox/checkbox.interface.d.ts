@@ -1,5 +1,4 @@
 import { HTMLAttributes } from 'react';
-
 export interface CheckboxProps extends HTMLAttributes<HTMLInputElement> {
     id: string;
     name?: string;

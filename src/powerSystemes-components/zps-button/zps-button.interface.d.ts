@@ -1,6 +1,5 @@
 import { ButtonHTMLAttributes, MouseEvent, ReactNode } from 'react';
 import { FunctionalIconNames } from '../../components/icon/icon.interface';
-
 export declare enum ZpsButtonVariant {
     Primary = "primary",
     Secondary = "secondary",
