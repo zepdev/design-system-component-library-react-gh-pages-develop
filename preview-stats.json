@@ -875,10 +875,10 @@
           "moduleName": "./src/components/hero/hero.stories.tsx"
         },
         {
-          "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
+          "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
         },
         {
-          "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
+          "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
         },
         {
           "moduleName": "./src/components/icon/SocialMediaIcons.stories.tsx"
@@ -947,19 +947,19 @@
       "name": "./src/components/icon/Icon.tsx",
       "reasons": [
         {
-          "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
+          "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
         },
         {
-          "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
+          "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
         },
         {
           "moduleName": "./src/components/icon/SocialMediaIcons.stories.tsx"
         },
         {
-          "moduleName": "./src/components/link/Link.tsx"
+          "moduleName": "./src/components/input/Input.tsx"
         },
         {
-          "moduleName": "./src/components/input/Input.tsx"
+          "moduleName": "./src/components/link/Link.tsx"
         },
         {
           "moduleName": "./src/components/text-area/TextArea.tsx"
@@ -968,10 +968,10 @@
           "moduleName": "./src/powerSystemes-components/USP/Usp.tsx"
         },
         {
-          "moduleName": "./src/components/breadcrumb/Breadcrumb.tsx"
+          "moduleName": "./src/components/button/Button.tsx"
         },
         {
-          "moduleName": "./src/components/button/Button.tsx"
+          "moduleName": "./src/components/breadcrumb/Breadcrumb.tsx"
         },
         {
           "moduleName": "./src/components/checkbox/Checkbox.tsx"
@@ -1001,10 +1001,10 @@
       "name": "./src/components/icon/Icons.tsx",
       "reasons": [
         {
-          "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
+          "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
         },
         {
-          "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
+          "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
         },
         {
           "moduleName": "./src/components/icon/SocialMediaIcons.stories.tsx"
@@ -1141,6 +1141,18 @@
       ]
     },
     {
+      "id": "./src/components/tooltip/Tooltip.tsx",
+      "name": "./src/components/tooltip/Tooltip.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/tooltip/Tooltip.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/tooltip/index.ts"
+        }
+      ]
+    },
+    {
       "id": "./src/components/teaser/Teaser.tsx",
       "name": "./src/components/teaser/Teaser.tsx",
       "reasons": [
@@ -1206,18 +1218,6 @@
         },
         {
           "moduleName": "./src/components/accordion/Accordion.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/tooltip/Tooltip.tsx",
-      "name": "./src/components/tooltip/Tooltip.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/tooltip/Tooltip.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/tooltip/index.ts"
         }
       ]
     },
@@ -1345,18 +1345,6 @@
       ]
     },
     {
-      "id": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx",
-      "name": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/powerSystemes-components/mediaText-simple/mediaText.stories.tsx"
-        },
-        {
-          "moduleName": "./src/powerSystemes-components/mediaText-simple/index.ts"
-        }
-      ]
-    },
-    {
       "id": "./src/components/breadcrumb/Breadcrumb.tsx",
       "name": "./src/components/breadcrumb/Breadcrumb.tsx",
       "reasons": [
@@ -1369,14 +1357,14 @@
       ]
     },
     {
-      "id": "./src/powerSystemes-components/richText/RichText.tsx",
-      "name": "./src/powerSystemes-components/richText/RichText.tsx",
+      "id": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx",
+      "name": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx",
       "reasons": [
         {
-          "moduleName": "./src/powerSystemes-components/richText/RichText.stories.tsx"
+          "moduleName": "./src/powerSystemes-components/mediaText-simple/mediaText.stories.tsx"
         },
         {
-          "moduleName": "./src/powerSystemes-components/richText/index.ts"
+          "moduleName": "./src/powerSystemes-components/mediaText-simple/index.ts"
         }
       ]
     },
@@ -1389,6 +1377,18 @@
         },
         {
           "moduleName": "./src/components/drop-down-filter/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/powerSystemes-components/richText/RichText.tsx",
+      "name": "./src/powerSystemes-components/richText/RichText.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/powerSystemes-components/richText/RichText.stories.tsx"
+        },
+        {
+          "moduleName": "./src/powerSystemes-components/richText/index.ts"
         }
       ]
     },
