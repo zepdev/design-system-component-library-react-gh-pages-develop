@@ -808,18 +808,6 @@
       ]
     },
     {
-      "id": "./src/components/radio/Radio.tsx",
-      "name": "./src/components/radio/Radio.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/radio/index.ts"
-        },
-        {
-          "moduleName": "./src/components/radio/Radio.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/input/Input.tsx",
       "name": "./src/components/input/Input.tsx",
       "reasons": [
@@ -828,6 +816,18 @@
         },
         {
           "moduleName": "./src/components/input/Input.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/radio/Radio.tsx",
+      "name": "./src/components/radio/Radio.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/radio/index.ts"
+        },
+        {
+          "moduleName": "./src/components/radio/Radio.stories.tsx"
         }
       ]
     },
@@ -893,10 +893,10 @@
           "moduleName": "./src/powerSystemes-components/header-long/HeaderLong.tsx"
         },
         {
-          "moduleName": "./src/powerSystemes-components/richText/RichText.tsx"
+          "moduleName": "./src/components/index.ts"
         },
         {
-          "moduleName": "./src/components/index.ts"
+          "moduleName": "./src/powerSystemes-components/richText/RichText.tsx"
         }
       ]
     },
@@ -947,10 +947,10 @@
           "moduleName": "./src/components/hero/hero.stories.tsx"
         },
         {
-          "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
+          "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
         },
         {
-          "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
+          "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
         },
         {
           "moduleName": "./src/components/icon/SocialMediaIcons.stories.tsx"
@@ -977,13 +977,13 @@
           "moduleName": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx"
         },
         {
-          "moduleName": "./src/powerSystemes-components/zps-button/ZpsButton.tsx"
-        },
-        {
           "moduleName": "./src/components/accordion/Accordion.tsx"
         },
         {
           "moduleName": "./src/components/index.ts"
+        },
+        {
+          "moduleName": "./src/powerSystemes-components/zps-button/ZpsButton.tsx"
         }
       ]
     },
@@ -1088,10 +1088,10 @@
       "name": "./src/components/icon/Icon.tsx",
       "reasons": [
         {
-          "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
+          "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
         },
         {
-          "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
+          "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
         },
         {
           "moduleName": "./src/components/icon/SocialMediaIcons.stories.tsx"
@@ -1121,9 +1121,6 @@
           "moduleName": "./src/powerSystemes-components/USP/Usp.tsx"
         },
         {
-          "moduleName": "./src/powerSystemes-components/zps-button/ZpsButton.tsx"
-        },
-        {
           "moduleName": "./src/components/accordion/Accordion.tsx"
         },
         {
@@ -1131,6 +1128,9 @@
         },
         {
           "moduleName": "./src/components/drop-down/DropDown.tsx"
+        },
+        {
+          "moduleName": "./src/powerSystemes-components/zps-button/ZpsButton.tsx"
         },
         {
           "moduleName": "./src/components/icon/index.ts"
@@ -1142,10 +1142,10 @@
       "name": "./src/components/icon/Icons.tsx",
       "reasons": [
         {
-          "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
+          "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
         },
         {
-          "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
+          "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
         },
         {
           "moduleName": "./src/components/icon/SocialMediaIcons.stories.tsx"
@@ -1201,18 +1201,6 @@
       ]
     },
     {
-      "id": "./src/components/phone-input/PhoneInput.tsx",
-      "name": "./src/components/phone-input/PhoneInput.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/phone-input/PhoneInput.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/phone-input/index.ts"
-        }
-      ]
-    },
-    {
       "id": "./src/components/pagination/Pagination.tsx",
       "name": "./src/components/pagination/Pagination.tsx",
       "reasons": [
@@ -1221,6 +1209,18 @@
         },
         {
           "moduleName": "./src/components/pagination/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/phone-input/PhoneInput.tsx",
+      "name": "./src/components/phone-input/PhoneInput.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/phone-input/PhoneInput.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/phone-input/index.ts"
         }
       ]
     },
@@ -1435,18 +1435,6 @@
       ]
     },
     {
-      "id": "./src/components/list/index.ts",
-      "name": "./src/components/list/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/powerSystemes-components/richText/RichText.tsx"
-        },
-        {
-          "moduleName": "./src/components/index.ts"
-        }
-      ]
-    },
-    {
       "id": "./src/utils/getDistanceToBottom.ts",
       "name": "./src/utils/getDistanceToBottom.ts",
       "reasons": [
@@ -1518,6 +1506,18 @@
       "reasons": [
         {
           "moduleName": "./src/components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/list/index.ts",
+      "name": "./src/components/list/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/index.ts"
+        },
+        {
+          "moduleName": "./src/powerSystemes-components/richText/RichText.tsx"
         }
       ]
     },
