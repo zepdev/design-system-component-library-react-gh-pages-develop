@@ -123,9 +123,9 @@ export declare const FunctionalIcons: {
     readonly 'settings-filled': () => import("react/jsx-dev-runtime").JSX.Element;
     readonly home: () => import("react/jsx-dev-runtime").JSX.Element;
     readonly share: () => import("react/jsx-dev-runtime").JSX.Element;
-    readonly newShare: () => import("react/jsx-dev-runtime").JSX.Element;
+    readonly 'share-2': () => import("react/jsx-dev-runtime").JSX.Element;
+    readonly add: () => import("react/jsx-dev-runtime").JSX.Element;
     readonly minus: () => import("react/jsx-dev-runtime").JSX.Element;
-    readonly plus: () => import("react/jsx-dev-runtime").JSX.Element;
     readonly 'add-circle': () => import("react/jsx-dev-runtime").JSX.Element;
     readonly 'marine-ship': () => import("react/jsx-dev-runtime").JSX.Element;
 };
