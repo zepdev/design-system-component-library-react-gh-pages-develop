@@ -868,6 +868,18 @@
       ]
     },
     {
+      "id": "./src/components/pagination/Pagination.tsx",
+      "name": "./src/components/pagination/Pagination.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/pagination/Pagination.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/pagination/index.ts"
+        }
+      ]
+    },
+    {
       "id": "./src/components/fieldset/index.ts",
       "name": "./src/components/fieldset/index.ts",
       "reasons": [
@@ -898,18 +910,6 @@
       ]
     },
     {
-      "id": "./src/components/pagination/Pagination.tsx",
-      "name": "./src/components/pagination/Pagination.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/pagination/Pagination.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/pagination/index.ts"
-        }
-      ]
-    },
-    {
       "id": "./src/components/spacing/index.ts",
       "name": "./src/components/spacing/index.ts",
       "reasons": [
@@ -923,10 +923,10 @@
           "moduleName": "./src/compositions/contact-form.stories.tsx"
         },
         {
-          "moduleName": "./src/components/button/Button.stories.tsx"
+          "moduleName": "./src/components/checkbox/Checkbox.stories.tsx"
         },
         {
-          "moduleName": "./src/components/checkbox/Checkbox.stories.tsx"
+          "moduleName": "./src/components/button/Button.stories.tsx"
         },
         {
           "moduleName": "./src/components/drop-down-filter/DropDownFilter.stories.tsx"
@@ -935,13 +935,13 @@
           "moduleName": "./src/components/drop-down/DropDown.stories.tsx"
         },
         {
-          "moduleName": "./src/components/hero/hero.stories.tsx"
-        },
-        {
           "moduleName": "./src/components/fieldset/Fieldset.stories.tsx"
         },
         {
           "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/hero/hero.stories.tsx"
         },
         {
           "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
@@ -1094,10 +1094,10 @@
           "moduleName": "./src/components/radio/Radio.tsx"
         },
         {
-          "moduleName": "./src/components/breadcrumb/Breadcrumb.tsx"
+          "moduleName": "./src/components/checkbox/Checkbox.tsx"
         },
         {
-          "moduleName": "./src/components/checkbox/Checkbox.tsx"
+          "moduleName": "./src/components/breadcrumb/Breadcrumb.tsx"
         },
         {
           "moduleName": "./src/components/input/Input.tsx"
@@ -1318,18 +1318,6 @@
       ]
     },
     {
-      "id": "./src/components/hero/Hero.tsx",
-      "name": "./src/components/hero/Hero.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/hero/hero.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/hero/index.ts"
-        }
-      ]
-    },
-    {
       "id": "./src/components/icon/Icon.tsx",
       "name": "./src/components/icon/Icon.tsx",
       "reasons": [
@@ -1349,13 +1337,13 @@
           "moduleName": "./src/powerSystemes-components/USP/Usp.tsx"
         },
         {
-          "moduleName": "./src/components/button/Button.tsx"
+          "moduleName": "./src/components/checkbox/Checkbox.tsx"
         },
         {
           "moduleName": "./src/components/breadcrumb/Breadcrumb.tsx"
         },
         {
-          "moduleName": "./src/components/checkbox/Checkbox.tsx"
+          "moduleName": "./src/components/button/Button.tsx"
         },
         {
           "moduleName": "./src/powerSystemes-components/zps-button/ZpsButton.tsx"
@@ -1401,6 +1389,18 @@
         },
         {
           "moduleName": "./src/components/icon/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/hero/Hero.tsx",
+      "name": "./src/components/hero/Hero.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/hero/hero.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/hero/index.ts"
         }
       ]
     },
