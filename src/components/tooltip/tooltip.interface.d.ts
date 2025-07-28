@@ -1,3 +1,5 @@
+import { default as React, MouseEventHandler } from 'react';
+
 type TooltipBubblePosition = 'top' | 'bottom' | 'left' | 'right';
 type TooltipBubbleColor = 'light' | 'dark' | 'zps' | 'cat';
 type TooltipBubbleAlign = 'start' | 'center' | 'end';
@@ -9,7 +11,7 @@ export interface TooltipBubbleProps {
     description: string;
     className?: string;
     color?: TooltipBubbleColor;
-    onClose?: (event: React.MouseEvent<Element, MouseEvent> | React.TouchEvent<Element>) => void;
+    onClose?: MouseEventHandler;
 }
 export interface TooltipProps extends TooltipBubbleProps {
     children: React.ReactNode;
