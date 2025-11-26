@@ -562,20 +562,20 @@
       ]
     },
     {
-      "id": "./src/powerSystemes-components/header-short/HeaderShort.tsx",
-      "name": "./src/powerSystemes-components/header-short/HeaderShort.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/powerSystemes-components/header-short/HeaderShort.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/powerSystemes-components/header-long/HeaderLong.tsx",
       "name": "./src/powerSystemes-components/header-long/HeaderLong.tsx",
       "reasons": [
         {
           "moduleName": "./src/powerSystemes-components/header-long/HeaderLong.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/powerSystemes-components/header-short/HeaderShort.tsx",
+      "name": "./src/powerSystemes-components/header-short/HeaderShort.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/powerSystemes-components/header-short/HeaderShort.stories.tsx"
         }
       ]
     },
@@ -935,19 +935,19 @@
           "moduleName": "./src/components/drop-down/DropDown.stories.tsx"
         },
         {
-          "moduleName": "./src/components/fieldset/Fieldset.stories.tsx"
+          "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
         },
         {
-          "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
+          "moduleName": "./src/components/hero/hero.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/fieldset/Fieldset.stories.tsx"
         },
         {
           "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
         },
         {
           "moduleName": "./src/components/icon/SocialMediaIcons.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/hero/hero.stories.tsx"
         },
         {
           "moduleName": "./src/components/input/Input.stories.tsx"
@@ -1337,10 +1337,10 @@
           "moduleName": "./src/powerSystemes-components/USP/Usp.tsx"
         },
         {
-          "moduleName": "./src/components/button/Button.tsx"
+          "moduleName": "./src/components/breadcrumb/Breadcrumb.tsx"
         },
         {
-          "moduleName": "./src/components/breadcrumb/Breadcrumb.tsx"
+          "moduleName": "./src/components/button/Button.tsx"
         },
         {
           "moduleName": "./src/components/checkbox/Checkbox.tsx"
