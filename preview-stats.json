@@ -562,20 +562,20 @@
       ]
     },
     {
-      "id": "./src/powerSystemes-components/header-long/HeaderLong.tsx",
-      "name": "./src/powerSystemes-components/header-long/HeaderLong.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/powerSystemes-components/header-long/HeaderLong.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/powerSystemes-components/header-short/HeaderShort.tsx",
       "name": "./src/powerSystemes-components/header-short/HeaderShort.tsx",
       "reasons": [
         {
           "moduleName": "./src/powerSystemes-components/header-short/HeaderShort.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/powerSystemes-components/header-long/HeaderLong.tsx",
+      "name": "./src/powerSystemes-components/header-long/HeaderLong.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/powerSystemes-components/header-long/HeaderLong.stories.tsx"
         }
       ]
     },
@@ -868,18 +868,6 @@
       ]
     },
     {
-      "id": "./src/components/pagination/Pagination.tsx",
-      "name": "./src/components/pagination/Pagination.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/pagination/Pagination.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/pagination/index.ts"
-        }
-      ]
-    },
-    {
       "id": "./src/components/fieldset/index.ts",
       "name": "./src/components/fieldset/index.ts",
       "reasons": [
@@ -910,6 +898,18 @@
       ]
     },
     {
+      "id": "./src/components/pagination/Pagination.tsx",
+      "name": "./src/components/pagination/Pagination.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/pagination/Pagination.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/pagination/index.ts"
+        }
+      ]
+    },
+    {
       "id": "./src/components/spacing/index.ts",
       "name": "./src/components/spacing/index.ts",
       "reasons": [
@@ -935,19 +935,19 @@
           "moduleName": "./src/components/drop-down/DropDown.stories.tsx"
         },
         {
-          "moduleName": "./src/components/hero/hero.stories.tsx"
+          "moduleName": "./src/components/fieldset/Fieldset.stories.tsx"
         },
         {
-          "moduleName": "./src/components/fieldset/Fieldset.stories.tsx"
+          "moduleName": "./src/components/hero/hero.stories.tsx"
         },
         {
           "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
         },
         {
-          "moduleName": "./src/components/icon/SocialMediaIcons.stories.tsx"
+          "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
         },
         {
-          "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
+          "moduleName": "./src/components/icon/SocialMediaIcons.stories.tsx"
         },
         {
           "moduleName": "./src/components/input/Input.stories.tsx"
@@ -1337,10 +1337,10 @@
           "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
         },
         {
-          "moduleName": "./src/components/icon/SocialMediaIcons.stories.tsx"
+          "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
         },
         {
-          "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
+          "moduleName": "./src/components/icon/SocialMediaIcons.stories.tsx"
         },
         {
           "moduleName": "./src/components/text-area/TextArea.tsx"
@@ -1364,10 +1364,10 @@
           "moduleName": "./src/components/fieldset/Fieldset.tsx"
         },
         {
-          "moduleName": "./src/components/link/Link.tsx"
+          "moduleName": "./src/components/input/Input.tsx"
         },
         {
-          "moduleName": "./src/components/input/Input.tsx"
+          "moduleName": "./src/components/link/Link.tsx"
         },
         {
           "moduleName": "./src/components/accordion/Accordion.tsx"
@@ -1391,10 +1391,10 @@
           "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
         },
         {
-          "moduleName": "./src/components/icon/SocialMediaIcons.stories.tsx"
+          "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
         },
         {
-          "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
+          "moduleName": "./src/components/icon/SocialMediaIcons.stories.tsx"
         },
         {
           "moduleName": "./src/components/icon/Icon.tsx"
@@ -1467,24 +1467,6 @@
         },
         {
           "moduleName": "./src/components/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/phone-input/CountrySelect.tsx",
-      "name": "./src/components/phone-input/CountrySelect.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/phone-input/PhoneInput.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/phone-input/PhoneInput.css",
-      "name": "./src/components/phone-input/PhoneInput.css",
-      "reasons": [
-        {
-          "moduleName": "./src/components/phone-input/PhoneInput.tsx"
         }
       ]
     },
@@ -1602,6 +1584,24 @@
       "reasons": [
         {
           "moduleName": "./src/components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/phone-input/CountrySelect.tsx",
+      "name": "./src/components/phone-input/CountrySelect.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/phone-input/PhoneInput.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/phone-input/PhoneInput.css",
+      "name": "./src/components/phone-input/PhoneInput.css",
+      "reasons": [
+        {
+          "moduleName": "./src/components/phone-input/PhoneInput.tsx"
         }
       ]
     },
